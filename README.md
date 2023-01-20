@@ -21,12 +21,14 @@ Then, you can use the following methods to retrieve information from the URL:
 - `get_images()`: Retrieves all image URLs from the specified URL.
 - `get_links()`: Retrieves all link URLs from the specified URL.
 
+
+```php
 $html = $scraper->get_html();
 $title = $scraper->get_title();
 $description = $scraper->get_description();
 $images = $scraper->get_images();
 $links = $scraper->get_links();
-
+```
 
 
 ## Limitations
